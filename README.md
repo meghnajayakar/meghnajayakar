@@ -25,8 +25,11 @@ I use machine learning and data analysis to make sense of biological data, from 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-23AA62?style=flat&logo=nextflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![HPC](https://img.shields.io/badge/HPC-555555?style=flat)
 
-**Areas:** Bioinformatics · Genomics · Machine Learning · Deep Learning (CNNs, BiLSTMs) · Statistical Analysis · Data Cleaning & Visualisation
+**Areas:** Bioinformatics · Genomics · Machine Learning · Deep Learning (CNNs, BiLSTMs) · Statistical Analysis · Data Cleaning & Visualisation · Reproducible Workflows (Nextflow) · Containerisation (Docker) · High-Performance Computing
 
 ---
 
