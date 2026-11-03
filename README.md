@@ -1,57 +1,70 @@
 # Hi, I'm Meghna 👋
 
-**MSc Applied Bioinformatics** | Data Science | AI & Computational Biology
+**MSc Applied Bioinformatics (King's College London, Distinction)** · B.Tech Data Science (NMIMS MPSTME, 3rd Rank Merit Holder)
 
-I use machine learning and data analysis to make sense of biological data, from genomes and gene regulation to clinical signals. I'm interested in how computational methods can uncover the mechanisms behind disease.
+I work on human genomics and computational biology: variant calling and prioritisation, RNA-seq, reproducible workflows on HPC, and deep learning for biological and clinical data.
 
----
+📫 [LinkedIn](https://linkedin.com/in/meghna-jayakar)
 
-## 🔬 What I'm working on
-
-- Research on how **iPSC variation shapes HIV-1 regulatory networks**
-- Deep learning for **genomic sequence analysis**
-- Building clean, reproducible analysis pipelines in Python and R
-
-<!-- Update this list with whatever you're currently learning or building -->
+> 🔎 Open to bioinformatics and computational biology roles in India.
 
 ---
 
-## 🧰 Skills & Tools
+## 🔬 What I work on
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Nextflow](https://img.shields.io/badge/Nextflow-23AA62?style=flat&logo=nextflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![HPC](https://img.shields.io/badge/HPC-555555?style=flat)
-
-**Areas:** Bioinformatics · Genomics · Machine Learning · Deep Learning (CNNs, BiLSTMs) · Statistical Analysis · Data Cleaning & Visualisation · Reproducible Workflows (Nextflow) · Containerisation (Docker) · High-Performance Computing
+- **Human genomics:** WGS variant calling, filtering and annotation (GATK, bcftools, Ensembl VEP, gnomAD, ENCODE cCRE)
+- **Transcriptomics:** bulk RNA-seq differential expression (DESeq2), pathway enrichment, spatial transcriptomics (10x Visium)
+- **Regulatory variant interpretation:** motif disruption analysis (MotifDiff, FIMO), AlphaMissense, AlphaGenome
+- **Workflows and HPC:** Nextflow (DSL2), SLURM, Docker, Singularity, Conda
+- **Deep learning for biology:** sequence models for TFBS prediction, biomedical NLP, computational pathology
 
 ---
 
-## 📌 Featured Projects
+## ⭐ Featured projects
 
-| Project | What it does |
+### [HIV-1 iPSC Project](https://github.com/meghnajayakar/HIV-1_iPSC_Project) (MSc research project)
+Used iPSC genetic variation to define HIV-1 regulatory networks. Starting from ~20 million variants in whole-genome sequencing data from two independent cohorts, I built an HPC pipeline and a multi-layer annotation framework that narrowed them to **15 coding and 53 regulatory candidates**, then integrated RNA-seq differential expression, motif analysis and orthogonal AlphaMissense/AlphaGenome validation.
+`GATK` `bcftools` `VEP` `DESeq2` `MotifDiff` `FIMO` `SLURM` `R` `Python`
+
+### [Nextflow Variant Calling and Annotation Pipeline](https://github.com/meghnajayakar/nextflow_sars-cov2-variant-pipeline)
+Modular Nextflow (DSL2) pipeline for germline variant calling and annotation (GATK HaplotypeCaller, joint genotyping, hard filtering, Ensembl VEP). Containerised with Docker, with configurable profiles and resumable execution; validated end to end on simulated SARS-CoV-2 reads.
+`Nextflow` `Docker` `GATK` `VEP`
+
+### [Spatial Transcriptomics of Human Lymph Node](https://github.com/meghnajayakar/visium-human-lymph-node)
+QC, clustering and marker-based annotation of a 10x Visium lymph node section. Used preranked GSEA and gene-set scoring to characterise a proliferative germinal-centre cluster and an interferon-response cluster, with documented limitations.
+`Scanpy` `GSEApy` `Python`
+
+### [Transcription Factor Binding Site Prediction](https://github.com/meghnajayakar/Transcription-Factor-Binding-Site-Prediction-in-DNA-Sequences-using-CNNs-and-BiLSTMs)
+Extended a DanQ-style CNN + BiLSTM across 690 sparse ChIP-seq targets. Cut parameters from ~218.8M to ~2.6M with global max pooling, added reverse-complement augmentation and evaluated with ROC-AUC and PR-AUC rather than accuracy.
+`TensorFlow` `Deep learning` `Genomics`
+
+---
+
+## 🛠️ Tech stack
+
+| Area | Tools |
 |---|---|
-| [**HIV-1 iPSC Project**](https://github.com/meghnajayakar/HIV-1_iPSC_Project) | MSc research using iPSC variation to define HIV-1 regulatory networks |
-| [**TF Binding Site Prediction**](https://github.com/meghnajayakar/Transcription-Factor-Binding-Site-Prediction-in-DNA-Sequences-using-CNNs-and-BiLSTMs) | Predicts transcription factor binding sites in DNA using CNNs + Bidirectional LSTMs |
-| [**ECG Classification**](https://github.com/meghnajayakar/ECG-Classification-using-1D-Convolutional-Neural-Networks) | 1D CNNs for classifying ECG signals |
-| [**IMPC Data Pipeline**](https://github.com/meghnajayakar/DCDM_Group9_Project) | Data collation, cleaning and parameter grouping for IMPC data (R) |
+| **Genomics** | GATK, bcftools, Ensembl VEP, gnomAD, ENCODE cCRE, AlphaMissense, AlphaGenome, MotifDiff, FIMO, IGV |
+| **Transcriptomics** | DESeq2, Scanpy, GSEApy, Enrichr, KEGG, Reactome |
+| **Languages** | Python, R, SQL, Bash |
+| **ML / DL** | PyTorch, TensorFlow, Keras, scikit-learn, BioPython, SciSpaCy |
+| **Infrastructure** | Linux, SLURM, Nextflow, Docker, Singularity, Conda, Git |
+| **Computational pathology** | QuPath, OpenSlide, TiffSlide |
 
 ---
 
-## 📫 Let's connect
+## 📄 Publications
 
-- 💼 LinkedIn: [your-linkedin-url](https://www.linkedin.com/in/your-username)
-- 📧 Email: your.email@example.com
-- 🌐 Portfolio: [your-site.com](https://your-site.com)
-
-<!-- Delete any lines you don't want to share -->
+- Jayakar, M.B., & Subhash, S. (2026). *Graph Theoretical Insights into the Genomic Integrity of Saccharomyces cerevisiae.* Research Journal of Pharmacy and Technology, 19(6). [doi:10.52711/0974-360X.2026.00398](https://doi.org/10.52711/0974-360X.2026.00398) 🏆 Best Paper Award, IMRCSIES-2025
+- Jayakar, M.B., et al. (2025). *Diagnosing Alzheimer's Disease Through Hippocampal MRI Analysis Using Artificial Intelligence.* CRC Press/Taylor & Francis. [doi:10.1201/9781003716648-5](https://doi.org/10.1201/9781003716648-5)
+- Jayakar, M.B., & Subhash, S. (2025). *Graph-Based Approaches in Bioinformatics.* Ecology, Environment and Conservation, 31(Suppl.). [doi:10.53550/EEC.2025.v31i03s.057](https://doi.org/10.53550/EEC.2025.v31i03s.057)
 
 ---
 
-*Open to opportunities in bioinformatics, computational biology and data science.*
+## 🧪 Previous experience
+
+**Data Science Research Intern, Tata Memorial Centre-ACTREC (2025):** benchmarked histopathology foundation models (UNI, UNI-2, CONCH, Virchow) against retrained CNNs for whole-slide image analysis on head and neck cancer tissue, working with histopathologists and clinicians.
+
+---
+
+*Always happy to chat about genomics, workflows or computational pathology. Feel free to reach out!*
