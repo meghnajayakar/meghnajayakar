@@ -1,6 +1,6 @@
 # Hi, I'm Meghna 👋
 
-**MSc Applied Bioinformatics (King's College London, Distinction)** · B.Tech Data Science (NMIMS MPSTME, 3rd Rank Merit Holder)
+**MSc Applied Bioinformatics (King's College London)** · B.Tech Data Science (NMIMS MPSTME, 3rd Rank Merit Holder)
 
 I work on human genomics and computational biology: variant calling and prioritisation, RNA-seq, reproducible workflows on HPC, and deep learning for biological and clinical data.
 
