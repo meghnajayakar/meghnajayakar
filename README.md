@@ -23,7 +23,7 @@ I work on human genomics and computational biology: variant calling and prioriti
 ## ⭐ Featured projects
 
 ### [HIV-1 iPSC Project](https://github.com/meghnajayakar/HIV-1_iPSC_Project) (MSc research project)
-Used iPSC genetic variation to define HIV-1 regulatory networks. Starting from ~20 million variants in whole-genome sequencing data from two independent cohorts, I built an HPC pipeline and a multi-layer annotation framework that narrowed them to **15 coding and 53 regulatory candidates**, then integrated RNA-seq differential expression, motif analysis and orthogonal AlphaMissense/AlphaGenome validation.
+Used iPSC genetic variation to define HIV-1 regulatory networks. Starting from ~20 million variants in whole-genome sequencing data from two independent cohorts, I built an HPC pipeline and a multi-layer annotation framework that narrowed them to **15 coding and 53 regulatory candidates**, then integrated RNA-seq differential expression, motif analysis and orthogonal AlphaMissense/AlphaGenome predictions.
 `GATK` `bcftools` `VEP` `DESeq2` `MotifDiff` `FIMO` `SLURM` `R` `Python`
 
 ### [Nextflow Variant Calling and Annotation Pipeline](https://github.com/meghnajayakar/nextflow_sars-cov2-variant-pipeline)
